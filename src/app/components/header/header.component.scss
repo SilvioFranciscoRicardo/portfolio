@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 80px;
+    width: 100%;
+}
+
+.navItens {
+    display: flex;
+}
+
+.navItens li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+.navItens li a {
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+.navItens li:hover a,
+.links a:hover {
+    color: #7f00ff
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
